@@ -1,13 +1,13 @@
-//**  Prototypal inheritance
-// var parent = {
-//   value: "parentValue",
-//   obj: {
-//     objValue: "parentObjValue"
-//   },
-//   walk: function () {
-//     console.log("walking!");
-//   }
-// };
+// **  Prototypal inheritance
+var parent = {
+    value: "parentValue",
+    obj: {
+        objValue: "parentObjValue"
+    },
+    walk: function () {
+        console.log("walking!");
+    }
+};
 //
 // var child = Object.create(parent);
 // console.log("CHILD - child.value: ", child.value);
